@@ -65,4 +65,4 @@ function challengeFour(breeds) {
         event.target.style.color = "blue";
       })
 
-  }})
+  }}
