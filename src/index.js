@@ -6,17 +6,18 @@ document.addEventListener("DOMContentLoaded", function(){
     })
     .then(function(json){
       console.log(json)
+      let doggys = json
 });
-      picsOnDom(json)
+      picsOnDom(doggys)
     })
 
-function picsOnDom(json) {
+function picsOnDom(doggys) {
 //for (i = 0; i < json.length; i++)
   //json[i]
   const ul = document.getElementById("dog-breeds")
   //let li = document.createElement("li")
   //json.forEach(function(picture) {
-  for (const picture of json) {
+  for (const picture of doggys) {
     let li = document.createElement("li")
     li.innerHTML = picture
     ul.appendChild("li")
