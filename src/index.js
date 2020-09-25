@@ -34,6 +34,9 @@ for (x in breeds) {
   let liTwo = document.createElement("li")
   liTwo.innerHTML = breeds[x]//.message[x]
   ulTwo.appendChild(liTwo)
+  liTwo.addEventListener("click", function(){
+    liTwo.text.style.color = "blue"
+  })
 }
 }
 
