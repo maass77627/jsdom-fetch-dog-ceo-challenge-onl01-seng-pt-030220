@@ -60,13 +60,14 @@ function challengeFour(breeds) {
  }
  });
  }
+ for (x in breeds) {
+   let liThree = document.createElement("li")
+   liThree.innerHTML = breeds[x]
+   ulTwo.appendChild(liThree)
+   liThree.addEventListener("click", function(event){
+     event.target.style.color = "blue";
+   })
+}
  }
 
-    for (x in breeds) {
-      let liThree = document.createElement("li")
-      liThree.innerHTML = breeds[x]
-      ulTwo.appendChild(liThree)
-      liThree.addEventListener("click", function(event){
-        event.target.style.color = "blue";
-      })
-}
+    
