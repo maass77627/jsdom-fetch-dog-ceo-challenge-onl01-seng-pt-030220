@@ -23,7 +23,8 @@ fetch('https://dog.ceo/api/breeds/list/all')
   return response.json()
 })
 .then(function(json){
-
+console.log(json)
+breedsDom(json)
 })
 
 function breedsDom(breeds) {
