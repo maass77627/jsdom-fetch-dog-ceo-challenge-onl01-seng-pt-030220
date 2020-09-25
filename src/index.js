@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function(){
     })
     .then(function(json){
       console.log(json)
-      picsOnDom(json)
+      picsOnDom(json.message)
 });
     })
 
