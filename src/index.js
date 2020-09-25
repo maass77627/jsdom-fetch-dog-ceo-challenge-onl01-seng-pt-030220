@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
       console.log(json)
       picsOnDom(json)
 });
-    }
+    })
 
 function picsOnDom(doggys) {
 //for (i = 0; i < json.length; i++)
