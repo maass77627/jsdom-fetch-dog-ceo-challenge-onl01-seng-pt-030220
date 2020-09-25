@@ -6,7 +6,10 @@ document.addEventListener("DOMContentLoaded", function(){
     })
     .then(function(json){
       console.log(json)
-      picsOnDom(json)
+      json.response.forEach(el => {
+  console.log(el);
+});
+    //  picsOnDom(json)
     })
 })
 
