@@ -61,4 +61,4 @@ function challengeFour(breeds) {
       liThree.addEventListener("click", function(event){
         event.target.style.color = "blue";
       })
-  }
+  }}}
