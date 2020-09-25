@@ -33,8 +33,9 @@ const ulTwo = document.getElementById("dog-breeds")
 for (x in breeds) {
   let liTwo = document.createElement("li")
   liTwo.innerHTML = breeds[x]
-  ulTwo.appendChild(liTwo).addEventListener("click", function(event){
-    event.liTwo.innerHTML.style.color = "blue"
+  ulTwo.appendChild(liTwo)
+  liTwo.addEventListener("click", function(event){
+    event.style.color = "blue"
   })
 }
 }
