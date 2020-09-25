@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
 function picsOnDom(doggys) {
 
   const ul = document.getElementById("dog-breeds")
-  
+
   for (const picture of doggys) {
     let li = document.createElement("li")
     li.innerHTML = picture
