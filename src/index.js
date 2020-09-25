@@ -49,17 +49,15 @@ function challengeFour(breeds) {
   let selector = document.getElementById("breed-dropdown")
 
   selector.addEventListener("change", function(event){
-
-  if (event.target.value === "a") {
-    ulTwo.innerHTML = "";
+      if (event.target.value === "a") {
+           ulTwo.innerHTML = "";
     for (i = 0; i < breeds.length; i++) {
-    if (breeds[i].startsWith("a")){
+    if (breeds[i].startsWith("a")) {
       array.push(breeds[i])
-    })
+    }
    }
  }
- }
-
+ });
 
     // for (x in breeds) {
     //   let liThree = document.createElement("li")
