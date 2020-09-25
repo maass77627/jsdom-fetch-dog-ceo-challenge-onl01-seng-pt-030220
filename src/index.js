@@ -50,7 +50,7 @@ function challengeFour(breeds) {
   //let newBreeds = []
   if (selector.value === "a") {
     //for (x in breeds) {
-    let postedDogs = []
+    postedDogs.remove()
     for (i = 0; i < breeds.length; i++)
     if (breeds[i].startsWith("a")){
       //newBreeds.push(breeds[i])
