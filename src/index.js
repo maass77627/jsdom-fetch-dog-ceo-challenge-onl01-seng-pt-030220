@@ -35,7 +35,7 @@ for (x in breeds) {
   liTwo.innerHTML = breeds[x]
   ulTwo.appendChild(liTwo)
   liTwo.addEventListener("click", function(event){
-    event.style.color = "blue"
+    event.liTwo.style.color = "blue"
   })
 }
 }
