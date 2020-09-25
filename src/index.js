@@ -20,7 +20,7 @@ function picsOnDom(array) {
     let li = document.createElement("li")
     li.innerHTML = picture
     ul.appendChild("li")
-});
+};
 // for (const element of myArray) {
 //   console.log(element);
 // }
