@@ -46,15 +46,15 @@ challengeFour(breeds)
 function challengeFour(breeds) {
   //let postedDogs = document.querySelectorAll("li")
   let selector = document.getElementById("breed-dropdown")
-  
+
   if (selector.value === "a") {
     //for (x in breeds) {
     postedDogs.remove()
     for (i = 0; i < breeds.length; i++)
     if (breeds[i].startsWith("a")){
-      
-      
-      
+
+
+
     }
 
     }
@@ -62,5 +62,3 @@ function challengeFour(breeds) {
   }
 
 }
-
-
