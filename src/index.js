@@ -50,23 +50,17 @@ function challengeFour(breeds) {
 
   selector.addEventListener("change", function(){
       if (selector.value === "a") {
-        console.log(selector.value)
           ulTwo.innerHTML = "";
     for (i = 0; i < breeds.length; i++) {
     if (breeds[i].startsWith("a")) {
-      array.push(breeds[i])
+      //array.push(breeds[i])
+      let newli = document.createElement("li")
+      newli.innerHTML = breeds[i]
+      ulTwo.appendChild(newli)
     }
    }
  }
  });
- for (x in breeds) {
-   let liThree = document.createElement("li")
-   liThree.innerHTML = breeds[x]
-   ulTwo.appendChild(liThree)
-   liThree.addEventListener("click", function(event){
-     event.target.style.color = "blue";
-   })
-}
  }
 
  }
