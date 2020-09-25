@@ -57,8 +57,8 @@ function challengeFour(breeds) {
       array.push(breeds[i])
     }
   }
-})
-    })
+
+    }
 
 }
     // for (x in breeds) {
