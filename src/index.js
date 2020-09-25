@@ -44,6 +44,7 @@ challengeFour(breeds)
 }
 
 function challengeFour(breeds) {
+  let postedDogs = document.querySelectorAll("li")
   let selector = document.getElementById("breed-dropdown")
   let newBreeds = []
   if (selector.value === "a") {
@@ -57,7 +58,7 @@ function challengeFour(breeds) {
     }
 
   }
-breedsDom(newBreeds)
+//breedsDom(newBreeds)
 }
 
 //}
