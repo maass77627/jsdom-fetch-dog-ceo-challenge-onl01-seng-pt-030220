@@ -50,6 +50,7 @@ function challengeFour(breeds) {
     for (x in breeds) {
     if (breeds[x].startsWith("a")){
       newBreeds.push(breeds[x])
+      console.log(newBreeds)
     }
     breedsDom(newBreeds)
     }
