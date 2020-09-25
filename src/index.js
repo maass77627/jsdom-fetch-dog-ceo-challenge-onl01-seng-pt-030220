@@ -15,9 +15,10 @@ function picsOnDom(doggys) {
   const ul = document.getElementById("dog-breeds")
 
   for (const picture of doggys) {
-    let li = document.createElement("li")
-    li.innerHTML = picture
-    ul.appendChild(li)
+    let image = document.createElement("img")
+    //li.innerHTML = picture
+    img.src = image
+    ul.appendChild(image)
 };
 
 
