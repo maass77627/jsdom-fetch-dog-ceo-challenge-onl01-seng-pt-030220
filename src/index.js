@@ -18,7 +18,7 @@ function picsOnDom(pictures) {
   pictures.forEach(function(picture) {
     let li = document.createElement("li")
     li.innerHTML = picture
-    ul.appendChild("li")  
+    ul.appendChild("li")
 });
-  
+
 }
