@@ -59,7 +59,8 @@ function challengeFour(breeds) {
   }
       }
     })
-  }
+  })
+})
     // for (x in breeds) {
     //   let liThree = document.createElement("li")
     //   liThree.innerHTML = breeds[x]
