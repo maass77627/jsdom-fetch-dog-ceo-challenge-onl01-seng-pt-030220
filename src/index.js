@@ -44,24 +44,23 @@ challengeFour(breeds)
 }
 
 function challengeFour(breeds) {
-  let postedDogs = document.querySelectorAll("li")
-  //console.log(postedDogs)
+  //let postedDogs = document.querySelectorAll("li")
   let selector = document.getElementById("breed-dropdown")
-  //let newBreeds = []
+  
   if (selector.value === "a") {
     //for (x in breeds) {
     postedDogs.remove()
     for (i = 0; i < breeds.length; i++)
     if (breeds[i].startsWith("a")){
-      //newBreeds.push(breeds[i])
-      postedDogs.push(breeds[i])
-      //console.log(newBreeds)
+      
+      
+      
     }
-  //  breedsDom(newBreeds)
+
     }
 
   }
-//breedsDom(newBreeds)
+
 }
 
-//}
+
