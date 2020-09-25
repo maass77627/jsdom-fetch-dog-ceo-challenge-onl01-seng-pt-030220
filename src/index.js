@@ -6,10 +6,9 @@ document.addEventListener("DOMContentLoaded", function(){
     })
     .then(function(json){
       console.log(json)
-      let doggys = json
+      picsOnDom(json)
 });
-      picsOnDom(doggys)
-    })
+    }
 
 function picsOnDom(doggys) {
 //for (i = 0; i < json.length; i++)
