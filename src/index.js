@@ -11,15 +11,28 @@ document.addEventListener("DOMContentLoaded", function(){
     })
 
 function picsOnDom(doggys) {
-
-  const ul = document.getElementById("dog-breeds")
-
-  for (const picture of doggys) {
+const ul = document.getElementById("dog-image-container")
+    for (const picture of doggys) {
     let image = document.createElement("img")
-    //li.innerHTML = picture
     image.src = picture
     ul.appendChild(image)
 };
 
+fetch('https://dog.ceo/api/breeds/list/all')
+.then(function(response){
+  return response.json()
+})
+.then(function(json){
+  
+})
+
+function breedsDom(breeds) {
+const ulTwo = document.getElementById("dog-breeds")
+for (const breed of breeds) {
+  let liTwo = document.createElement("li")
+  liTwo.innerHTML = breed
+  ulTwo.appendChild(liTwo)
+}
+}
 
 }
