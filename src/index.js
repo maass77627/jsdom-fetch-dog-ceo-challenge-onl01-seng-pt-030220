@@ -45,12 +45,13 @@ challengeFour(breeds)
 
 function challengeFour(breeds) {
   let selector = document.getElementById("breed-dropdown")
-
+  let newBreeds = []
   if (selector.value === "a") {
     for (x in breeds) {
-    if (!breeds[x].startsWith("a")){
-      (breeds[x]).remove
+    if (breeds[x].startsWith("a")){
+      newBreeds.push(breeds[x])
     }
+    breedsDom(newBreeds)
     }
 
   }
