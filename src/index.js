@@ -43,6 +43,7 @@ for (x in breeds) {
 
 function challengeFour() {
   let selector = document.getElementById("breed-dropdown")
+  console.log(selector)
 
 }
 
