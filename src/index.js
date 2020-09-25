@@ -69,5 +69,3 @@ function challengeFour(breeds) {
    })
 }
  }
-
-    
