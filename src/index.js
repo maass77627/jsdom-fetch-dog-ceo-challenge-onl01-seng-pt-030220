@@ -30,7 +30,7 @@ breedsDom(newjson)
 })
 
 function breedsDom(breeds) {
-  challengeFour();
+  //challengeFour();
 const ulTwo = document.getElementById("dog-breeds")
 for (x in breeds) {
   let liTwo = document.createElement("li")
@@ -40,12 +40,13 @@ for (x in breeds) {
     event.target.style.color = "blue";
   })
 }
+challengeFour(breeds)
 }
 
-function challengeFour() {
+function challengeFour(breeds) {
   let selector = document.getElementById("breed-dropdown")
 
-  if (selector.value === "b") {
+  if (selector.value === "a") {
     console.log(selector)
   }
 
