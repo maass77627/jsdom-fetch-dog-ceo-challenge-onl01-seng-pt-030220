@@ -57,7 +57,7 @@ function challengeFour(breeds) {
     for (x in breeds) {
       let liThree = document.createElement("li")
       liThree.innerHTML = breeds[x]
-      ulThree.appendChild(liTwo)
+      ulTwo.appendChild(liThree)
       liThree.addEventListener("click", function(event){
         event.target.style.color = "blue";
       })
