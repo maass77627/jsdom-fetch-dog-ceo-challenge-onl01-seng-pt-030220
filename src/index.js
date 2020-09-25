@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
+  challengeFour()
 
   fetch("https://dog.ceo/api/breeds/image/random/4")
     .then(function(response){
@@ -42,7 +43,7 @@ for (x in breeds) {
 
 function challengeFour() {
   let selector = document.getElementById("breed-dropdown")
-  console.log(selector)
+  
 }
 
 }
