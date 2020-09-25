@@ -52,12 +52,11 @@ function challengeFour(breeds) {
 
   if (event.target.value === "a") {
     ulTwo.innerHTML = "";
-  //  document.querySelectorAll("li").forEach(n => n.remove());
     for (i = 0; i < breeds.length; i++)
     if (breeds[i].startsWith("a")){
       array.push(breeds[i])
       }
-    }
+    } })
     for (x in breeds) {
       let liThree = document.createElement("li")
       liThree.innerHTML = breeds[x]
