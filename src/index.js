@@ -48,7 +48,7 @@ function challengeFour(breeds) {
 
   if (selector.value === "a") {
     for (x in breeds) {
-    if !(breeds[x].startsWith("a")){
+    if (!breeds[x].startsWith("a")){
       console.log(breeds[x])
     }
     }
