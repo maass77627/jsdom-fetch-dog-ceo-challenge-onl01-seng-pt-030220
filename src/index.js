@@ -57,7 +57,7 @@ function challengeFour(breeds) {
     }
 
   }
-
+breedsDom(newBreeds)
 }
 
 //}
