@@ -32,7 +32,7 @@ function breedsDom(breeds) {
 const ulTwo = document.getElementById("dog-breeds")
 for (x in breeds) {
   let liTwo = document.createElement("li")
-  liTwo.innerHTML = breeds//.message[x]
+  liTwo.innerHTML = breeds[x]//.message[x]
   ulTwo.appendChild(liTwo)
 }
 }
