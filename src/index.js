@@ -56,7 +56,7 @@ function challengeFour(breeds) {
     if (breeds[i].startsWith("a")){
       array.push(breeds[i])
       }
-    } })
+    } 
     for (x in breeds) {
       let liThree = document.createElement("li")
       liThree.innerHTML = breeds[x]
