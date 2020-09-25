@@ -44,13 +44,14 @@ challengeFour(breeds)
 }
 
 function challengeFour(breeds) {
-  //let postedDogs = document.querySelectorAll("li")
+  let array = []
   let selector = document.getElementById("breed-dropdown")
 
   if (selector.value === "a") {
     for (i = 0; i < breeds.length; i++)
     if (breeds[i].startsWith("a")){
       console.log(breeds[i])
+      array.push(breeds[i])
 
 
 
