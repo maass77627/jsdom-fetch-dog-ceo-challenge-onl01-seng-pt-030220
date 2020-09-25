@@ -50,7 +50,7 @@ function challengeFour(breeds) {
 
   selector.addEventListener("change", function(event){
       if (selector.value === "a") {
-        console.log(event.target.value)
+        console.log(selector.value)
           // ulTwo.innerHTML = "";
     for (i = 0; i < breeds.length; i++) {
     if (breeds[i].startsWith("a")) {
