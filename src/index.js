@@ -17,7 +17,7 @@ function picsOnDom(doggys) {
   for (const picture of doggys) {
     let image = document.createElement("img")
     //li.innerHTML = picture
-    img.src = image
+    image.src = picture
     ul.appendChild(image)
 };
 
