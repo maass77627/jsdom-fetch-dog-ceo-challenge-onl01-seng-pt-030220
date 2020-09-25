@@ -10,12 +10,12 @@ document.addEventListener("DOMContentLoaded", function(){
     })
 })
 
-function picsOnDom(pictures) {
+function picsOnDom(json) {
 //for (i = 0; i < json.length; i++)
   //json[i]
   const ul = document.getElementById("dog-breeds")
   //let li = document.createElement("li")
-  pictures.forEach(function(picture) {
+  json.forEach(function(picture) {
     let li = document.createElement("li")
     li.innerHTML = picture
     ul.appendChild("li")
