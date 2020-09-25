@@ -48,10 +48,9 @@ function challengeFour(breeds) {
   let selector = document.getElementById("breed-dropdown")
 
   if (selector.value === "a") {
-    //for (x in breeds) {
-    postedDogs.remove()
     for (i = 0; i < breeds.length; i++)
     if (breeds[i].startsWith("a")){
+      console.log(breeds[i])
 
 
 
