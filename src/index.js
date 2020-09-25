@@ -44,14 +44,14 @@ challengeFour(breeds)
 }
 
 function challengeFour(breeds) {
-  const ulTwo = document.getElementById("dog-breeds")
+  let ulTwo = document.getElementById("dog-breeds")
   let array = []
   let selector = document.getElementById("breed-dropdown")
 
   selector.addEventListener("change", function(){
       if (selector.value === "a") {
         console.log(selector.value)
-          // ulTwo.innerHTML = "";
+          ulTwo.innerHTML = "";
     for (i = 0; i < breeds.length; i++) {
     if (breeds[i].startsWith("a")) {
       array.push(breeds[i])
