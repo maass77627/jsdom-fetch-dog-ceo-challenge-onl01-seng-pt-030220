@@ -45,6 +45,7 @@ challengeFour(breeds)
 
 function challengeFour(breeds) {
   let postedDogs = document.querySelectorAll("li")
+  console.log(postedDogs)
   let selector = document.getElementById("breed-dropdown")
   let newBreeds = []
   if (selector.value === "a") {
