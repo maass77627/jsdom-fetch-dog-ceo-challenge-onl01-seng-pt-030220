@@ -58,6 +58,7 @@ function challengeFour(breeds) {
    }
  }
  });
+ }
 
     // for (x in breeds) {
     //   let liThree = document.createElement("li")
