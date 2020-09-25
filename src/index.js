@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function(){
 });
       picsOnDom(json)
     })
-})
 
 function picsOnDom(json) {
 //for (i = 0; i < json.length; i++)
