@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(){
-  challengeFour()
+  
 
   fetch("https://dog.ceo/api/breeds/image/random/4")
     .then(function(response){
@@ -30,6 +30,7 @@ breedsDom(newjson)
 })
 
 function breedsDom(breeds) {
+  challengeFour();
 const ulTwo = document.getElementById("dog-breeds")
 for (x in breeds) {
   let liTwo = document.createElement("li")
