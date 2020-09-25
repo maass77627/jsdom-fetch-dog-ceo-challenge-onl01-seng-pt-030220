@@ -49,7 +49,8 @@ function challengeFour(breeds) {
   let selector = document.getElementById("breed-dropdown")
 
   if (selector.value === "a") {
-    document.querySelectorAll("li").forEach(n => n.remove());
+    ulTwo.innerHTML = "";
+  //  document.querySelectorAll("li").forEach(n => n.remove());
     for (i = 0; i < breeds.length; i++)
     if (breeds[i].startsWith("a")){
       array.push(breeds[i])
