@@ -48,7 +48,7 @@ function challengeFour(breeds) {
   let array = []
   let selector = document.getElementById("breed-dropdown")
 
-  selector.addEventListener("change", function(event){
+  selector.addEventListener("change", function(){
       if (selector.value === "a") {
         console.log(selector.value)
           // ulTwo.innerHTML = "";
