@@ -48,17 +48,19 @@ function challengeFour(breeds) {
   let selector = document.getElementById("breed-dropdown")
 
   if (selector.value === "a") {
+    document.querySelectorAll("li").destroy
     for (i = 0; i < breeds.length; i++)
     if (breeds[i].startsWith("a")){
       array.push(breeds[i])
-      console.log(array)
-
-
-
+      }
     }
-
-    }
-
+    for (x in breed) {
+      let liThree = document.createElement("li")
+      liThree.innerHTML = breeds[x]
+      ulThree.appendChild(liTwo)
+      liThree.addEventListener("click", function(event){
+        event.target.style.color = "blue";
+      })
   }
 
 }
