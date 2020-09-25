@@ -50,8 +50,8 @@ function challengeFour(breeds) {
   if (selector.value === "a") {
     for (i = 0; i < breeds.length; i++)
     if (breeds[i].startsWith("a")){
-      console.log(breeds[i])
       array.push(breeds[i])
+      console.log(array)
 
 
 
