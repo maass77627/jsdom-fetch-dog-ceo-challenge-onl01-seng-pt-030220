@@ -51,7 +51,7 @@ function challengeFour(breeds) {
     for (i = 0; i < breeds.length; i++)
     if (breeds[i].startsWith("a")){
       newBreeds.push(breeds[i])
-      console.log(newBreeds)
+      //console.log(newBreeds)
     }
     breedsDom(newBreeds)
     }
