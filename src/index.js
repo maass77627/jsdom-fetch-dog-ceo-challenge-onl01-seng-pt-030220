@@ -24,14 +24,14 @@ fetch('https://dog.ceo/api/breeds/list/all')
 })
 .then(function(json){
 console.log(json)
-breedsDom(json.message)
+breedsDom(json)
 })
 
 function breedsDom(breeds) {
 const ulTwo = document.getElementById("dog-breeds")
-for (const breed of breeds) {
+for (x in breeds) {
   let liTwo = document.createElement("li")
-  liTwo.innerHTML = breed
+  liTwo.innerHTML = breed[x]
   ulTwo.appendChild(liTwo)
 }
 }
