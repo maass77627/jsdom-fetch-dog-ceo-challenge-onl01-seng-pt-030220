@@ -53,7 +53,7 @@ function challengeFour(breeds) {
       newBreeds.push(breeds[i])
       //console.log(newBreeds)
     }
-    breedsDom(newBreeds)
+  //  breedsDom(newBreeds)
     }
 
   }
