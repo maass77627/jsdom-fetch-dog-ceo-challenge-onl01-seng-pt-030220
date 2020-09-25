@@ -44,6 +44,7 @@ challengeFour(breeds)
 }
 
 function challengeFour(breeds) {
+  const ulTwo = document.getElementById("dog-breeds")
   let array = []
   let selector = document.getElementById("breed-dropdown")
 
