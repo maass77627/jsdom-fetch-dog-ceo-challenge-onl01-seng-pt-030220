@@ -19,7 +19,7 @@ function picsOnDom(doggys) {
   for (const picture of doggys) {
     let li = document.createElement("li")
     li.innerHTML = picture
-    ul.appendChild("li")
+    ul.appendChild(li)
 };
 // for (const element of myArray) {
 //   console.log(element);
