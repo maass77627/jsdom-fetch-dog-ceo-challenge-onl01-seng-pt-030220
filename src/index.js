@@ -52,7 +52,7 @@ function challengeFour(breeds) {
       console.log(breeds[x])
     }
     }
-    
+
   }
 
 }
