@@ -51,14 +51,14 @@ function challengeFour(breeds) {
   selector.addEventListener("change", function(event){
 
   if (event.target.value === "a") {
-    ulTwo.innerHTML = "";}
+    ulTwo.innerHTML = "";
     for (i = 0; i < breeds.length; i++) {
     if (breeds[i].startsWith("a")){
       array.push(breeds[i])
-    }
-  }
-
-})
+    })
+   }
+ }
+ }
 
 
     // for (x in breeds) {
