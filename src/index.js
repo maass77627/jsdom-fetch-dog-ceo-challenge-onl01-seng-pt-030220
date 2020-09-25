@@ -45,7 +45,7 @@ for (x in breeds) {
 function challengeFour() {
   let selector = document.getElementById("breed-dropdown")
 
-  if (selector.value === "a") {
+  if (selector.value === "b") {
     console.log(selector)
   }
 
