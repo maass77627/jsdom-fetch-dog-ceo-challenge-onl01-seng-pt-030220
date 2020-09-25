@@ -48,7 +48,9 @@ function challengeFour(breeds) {
   let array = []
   let selector = document.getElementById("breed-dropdown")
 
-  if (selector.value === "a") {
+  selector.addEventListener("change", function(event){            
+
+  if (event.target.value === "a") {
     ulTwo.innerHTML = "";
   //  document.querySelectorAll("li").forEach(n => n.remove());
     for (i = 0; i < breeds.length; i++)
@@ -62,5 +64,6 @@ function challengeFour(breeds) {
       ulTwo.appendChild(liThree)
       liThree.addEventListener("click", function(event){
         event.target.style.color = "blue";
+      })
       })
   }}}
