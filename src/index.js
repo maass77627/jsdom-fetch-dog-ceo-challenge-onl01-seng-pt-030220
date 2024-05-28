@@ -1,19 +1,94 @@
+
+
+// document.addEventListener("DOMContentLoaded", function(){
+  
+
+//   fetch('https://dog.ceo/api/breeds/list/all')
+//   .then((response) => response.json())
+//   .then((json) => {
+//     console.log(json.message)
+//     let breeds = Object.keys(json.message)
+//     addBreeds(breeds)
+//   })
+  
+//   fetch("https://dog.ceo/api/breeds/image/random/4")
+//   .then((response) => response.json())
+//   .then((json) => {
+//     let dogs = json.message
+//     addDogs(dogs)
+//   })
+
+
+//   function addDogs(dogs) {
+//      let container = document.getElementById('dog-image-container')
+//      for (let dog of dogs) {
+//      console.log(dog)
+//      let div = document.createElement('div')
+//      let image = document.createElement('img')
+//      image.src = dog
+//      div.appendChild(image)
+//      container.appendChild(div)
+//      }
+//   }
+
+// function addBreeds(breeds) {
+ 
+
+//   for (let breed of breeds) {
+//     let ul = document.getElementById('dog-breeds')
+//     let li = document.createElement('li')
+//     li.addEventListener('click', () => { li.style.color = 'red'})
+//     li.innerHTML = breed
+//     ul.appendChild(li)
+//   }
+// }
+
+// })
+
+
+  // function breedFilter() {
+  //     let drop = document.getElementById('breed-dropdown')
+  //    let value = drop.value
+
+  //  if (value == "a") {
+  //    let newbreeds = breeds.find((breed) => breed.charAt(0) == "a")
+  //  } else if (value == "b") {
+  //   let newbreeds = breeds.find((breed) => breed.charAt(0) == "b")
+  // } else if (value == "c") {
+  //   let newbreeds = breeds.find((breed) => breed.charAt(0) == "c")
+  // } else if (value == "d") {
+  //   let newbreeds = breeds.find((breed) => breed.charAt(0) == "d")
+  // } else {
+  //   let newbreeds = breeds
+  // }
+  // return newbreeds
+  // }
+  
+
+
+
+
+
+
+
+
+
 document.addEventListener("DOMContentLoaded", function(){
 
 fetch("https://dog.ceo/api/breeds/image/random/4")
-.then(function(response){
+ .then(function(response){
   return response.json()
-})
-.then(function(json){
-  //console.log(json)
-  let dogs = json.message
+ })
+ .then(function(json){
+  console.log(json)
+ let dogs = json.message
   dogsondom(dogs)
 }) 
 
 function dogsondom(dogs) {
   const ul = document.getElementById("dog-image-container")
     for (const dog of dogs) {
-      //console.log(dog)
+      
       let image = document.createElement("img")
       image.src = dog
       ul.appendChild(image)
